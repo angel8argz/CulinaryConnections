@@ -21,6 +21,9 @@
 		B7834F7E2B82343500D965C3 /* Leo Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7834F7D2B82343500D965C3 /* Leo Page.swift */; };
 		B7834F822B8235E300D965C3 /* Search Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7834F812B8235E300D965C3 /* Search Page.swift */; };
 		B7834F842B8236B300D965C3 /* Search Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7834F832B8236B300D965C3 /* Search Result.swift */; };
+		B7834F862B82569600D965C3 /* Taskbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7834F852B82569600D965C3 /* Taskbar.swift */; };
+		B7834F882B825A1D00D965C3 /* data in Resources */ = {isa = PBXBuildFile; fileRef = B7834F872B825A1D00D965C3 /* data */; };
+		B7834F8A2B825B1B00D965C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7834F892B825B1B00D965C3 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		B7834F7D2B82343500D965C3 /* Leo Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Leo Page.swift"; sourceTree = "<group>"; };
 		B7834F812B8235E300D965C3 /* Search Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Page.swift"; sourceTree = "<group>"; };
 		B7834F832B8236B300D965C3 /* Search Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Result.swift"; sourceTree = "<group>"; };
+		B7834F852B82569600D965C3 /* Taskbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskbar.swift; sourceTree = "<group>"; };
+		B7834F872B825A1D00D965C3 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = CulinaryConnectionsVersion2/data; sourceTree = "<group>"; };
+		B7834F892B825B1B00D965C3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B7834F8B2B825C2500D965C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,8 @@
 		B7834F392B8206EA00D965C3 = {
 			isa = PBXGroup;
 			children = (
+				B7834F892B825B1B00D965C3 /* Launch Screen.storyboard */,
+				B7834F872B825A1D00D965C3 /* data */,
 				B7834F442B8206EA00D965C3 /* CulinaryConnectionsVersion2 */,
 				B7834F552B8206EB00D965C3 /* CulinaryConnectionsVersion2Tests */,
 				B7834F5F2B8206EB00D965C3 /* CulinaryConnectionsVersion2UITests */,
@@ -108,6 +117,8 @@
 		B7834F442B8206EA00D965C3 /* CulinaryConnectionsVersion2 */ = {
 			isa = PBXGroup;
 			children = (
+				B7834F8B2B825C2500D965C3 /* Info.plist */,
+				B7834F852B82569600D965C3 /* Taskbar.swift */,
 				B7834F452B8206EA00D965C3 /* CulinaryConnectionsVersion2App.swift */,
 				B7834F472B8206EA00D965C3 /* ContentView.swift */,
 				B7834F752B82297800D965C3 /* Create Recipe.swift */,
@@ -227,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B7834F3D2B8206EA00D965C3 /* Build configuration list for PBXProject "CulinaryConnectionsVersion2" */;
+			buildConfigurationList = B7834F3D2B8206EA00D965C3 /* Build configuration list for PBXProject "CulinaryConnections" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7834F4D2B8206EB00D965C3 /* Preview Assets.xcassets in Resources */,
+				B7834F882B825A1D00D965C3 /* data in Resources */,
+				B7834F8A2B825B1B00D965C3 /* Launch Screen.storyboard in Resources */,
 				B7834F4A2B8206EB00D965C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +295,7 @@
 				B7834F7E2B82343500D965C3 /* Leo Page.swift in Sources */,
 				B7834F782B822BB600D965C3 /* Explore Page.swift in Sources */,
 				B7834F462B8206EA00D965C3 /* CulinaryConnectionsVersion2App.swift in Sources */,
+				B7834F862B82569600D965C3 /* Taskbar.swift in Sources */,
 				B7834F7C2B82301800D965C3 /* Friends Page.swift in Sources */,
 				B7834F7A2B822E9500D965C3 /* Chicken.swift in Sources */,
 				B7834F842B8236B300D965C3 /* Search Result.swift in Sources */,
@@ -452,9 +466,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CulinaryConnectionsVersion2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CulinaryConnectionsVersion2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,9 +494,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CulinaryConnectionsVersion2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CulinaryConnectionsVersion2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -573,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7834F3D2B8206EA00D965C3 /* Build configuration list for PBXProject "CulinaryConnectionsVersion2" */ = {
+		B7834F3D2B8206EA00D965C3 /* Build configuration list for PBXProject "CulinaryConnections" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7834F642B8206EB00D965C3 /* Debug */,
