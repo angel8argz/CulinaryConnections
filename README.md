@@ -2,7 +2,7 @@
 
 DISCLAIMER: This is not a complete project. It is simply a concept that is supposed to communicate our vision in the creation of this app.
 
-ADDITIONALLY: This is not the original repo. We are new to github and accidentally got of our ability to push on new files, and as such, we simply foudn it easier to create a new repo. The link to the old repo is here: 
+ADDITIONALLY: This is not the original repo. We are new to github and accidentally got of our ability to push on new files, and as such, we simply foudn it easier to create a new repo. The link to the old repo is here: https://github.com/angel8argz/CulinaryConnections/AppVersions
 
 CulinaryConnections is an app meant to connect people through the power of sharing recipes. For many people, some of the best ways to connect with their family and their culture is via cooking and passing down recipes. For some, this type of connection may be difficult or impossible to achieve for a variety of reasons. 
 
